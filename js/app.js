@@ -1,4 +1,4 @@
- var swiper = new Swiper(".mySwiper", {
+     var swiper = new Swiper(".mySwiper", {
       pagination: {
         el: ".swiper-pagination",
       },
@@ -10,11 +10,15 @@
 
     });
     var swiper = new Swiper(".swiperFeature", {
-      slidesPerView: 5,
+      slidesPerView: 4,
       spaceBetween: 10,
       loop: true,
       keyboard: {
         enabled: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
       },
       breakpoints: {
         320: {
@@ -26,19 +30,19 @@
           spaceBetween: 20,
         },
         768: {
-          slidesPerView: 4,
+          slidesPerView: 3,
           spaceBetween: 30,
         },
         1024: {
-          slidesPerView: 5,
+          slidesPerView: 4,
           spaceBetween: 20,
         },
       },
     });
     var swiper = new Swiper(".catagorySwiper", {
       navigation: {
-        nextEl: ".leftBtn",
-        prevEl: ".rightBtn",
+        nextEl: ".rightBtn",
+        prevEl: ".leftBtn",
       },
       slidesPerView: 5,
       loop:true,
