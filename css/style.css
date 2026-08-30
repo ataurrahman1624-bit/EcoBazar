@@ -2109,3 +2109,13 @@ top: 9px;
 left: 9px;
 z-index: 2;
     }
+    /* Container & Section Base */
+#aboutOne.about-section {
+  
+  padding: 60px 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+
+
