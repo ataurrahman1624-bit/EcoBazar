@@ -716,6 +716,15 @@ display: none;
 .aboutRight{
     padding-bottom: 20px;
 }
+.about-img-mobile img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+#aboutOne, #aboutTwo{
+    margin: 0px 0;
+}
+
 }
 
 
