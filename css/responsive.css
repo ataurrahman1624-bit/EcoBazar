@@ -705,6 +705,17 @@ display: none;
 #relatedProduct .offer {
     font-size: 10px;
 }
+.aboutLeft h2{
+    font-size: 26px;
+    line-height: 90%;
+    padding: 0px 25px 20px 0px;
+}
+.aboutLeft p{
+     font-size: 12px;
+}
+.aboutRight{
+    padding-bottom: 20px;
+}
 }
 
 
