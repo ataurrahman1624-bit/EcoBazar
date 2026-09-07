@@ -92,7 +92,37 @@
         },
       },
     });
-   
+   $(document).ready(function(){
+  $('.team-slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-arrow-left-short"></i></button>',
+    nextArrow: '<button type="button" class="slick-next"><i class="bi bi-arrow-right-short"></i></button>',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
  // countdown jquery file starts here
 
    $('#cot_sale_timer').countdown('2026/04/30', function(event) {
